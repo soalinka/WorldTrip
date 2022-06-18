@@ -1,0 +1,350 @@
+.name {
+width:30%;
+margin-left:30px;
+}
+
+.name:hover {
+transform: scale(1.1);
+transition: transform 0.5s;
+overflow: hidden;
+}
+
+.contacts{
+width:23%;
+float:right;
+margin-right:30px;
+margin-top:30px;
+}
+.contacts:hover {
+transform: scale(1.1);
+transition: transform 0.5s;
+overflow: hidden;
+
+}
+.panorama{
+    display: block;
+    width: 100%;
+}
+
+.header-images {
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+	height: 20%;
+}
+
+ul {
+list-style:none; /*убираем маркеры списка*/
+margin:0; /*убираем отступы*/
+padding-left:0; /*убираем отступы*/
+margin-top:5px; /*делаем отступ сверху*/
+background:#ffffff; /*добавляем фон всему меню*/
+height:60px; /*задаем высоту*/
+justify-content: space-between;
+}
+
+a {
+width:210px;
+text-decoration:none; /*убираем подчеркивание текста ссылок*/
+background:#dcdcdc; /*добавляем фон к пункту меню*/
+color:#484848; /*меняем цвет ссылок*/
+padding:0px 15px; /*добавляем отступ*/
+font-family:Century Gothic; /*меняем шрифт*/
+line-height:50px; /*ровняем меню по вертикали*/
+display:block; 
+border-right:15px solid #ffffff; /*добавляем бордюр справа*/
+-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+-o-transition: all 0.3s 0.01s ease;
+-webkit-transition: all 0.3s 0.01s ease;
+transition: all 0.3s 0.01s ease;
+font-size:25px;
+text-align:center;
+
+}
+a:hover {
+background:#4e819a;/*добавляем эффект при наведении*/
+}
+li {
+float:left; /*Размещаем список горизонтально для реализации меню*/
+position:relative; /*задаем позицию для позиционирования*/
+
+}
+ 
+/*Стили для скрытого выпадающего меню*/
+li > ul {
+    position:absolute;
+    top:45px;
+    display:none;   
+}
+ 
+/*Делаем скрытую часть видимой*/
+li:hover > ul {
+    display:block; 
+    width:250px;  /*Задаем ширину выпадающего меню*/    
+    z-index: 10;
+
+}
+li:hover > ul > li {
+    float:none; /*Убираем горизонтальное позиционирование*/
+}
+
+#search{
+float:right;
+margin-top:-60px;
+width:250px;
+height:50px;
+background-color:#dcdcdc;
+}
+.search2{
+color:#4e819a;
+font-weight:bold;
+font-size:16px;
+margin-top:10px;
+margin-left:35px;
+height:30px;
+width:200px;
+border-radius:7px;
+text-indent:10px;
+}
+#travels{
+border:3px;
+border-color:#4e819a;
+border-style:dashed;
+width:225px;
+height:630px;
+float:right;
+text-indent:5px;
+}
+p{
+font-family:Century Gothic;
+font-weight:bold;
+color:#888888;
+}
+.heading1{
+font-family:Century Gothic;
+font-weight:bold;
+color:#888888;
+height:90px;
+}
+.heading2{
+font-family:Century Gothic;
+font-weight:bold;
+color:#888888;
+height:70px;
+}
+.heading3{
+font-family:Century Gothic;
+font-weight:bold;
+color:#888888;
+height:50px;
+}
+
+h1{
+color:#4e819a;
+font-family:Century Gothic;
+font-size:40px;
+text-align:center;
+}
+.counter{
+float:right;
+width:200px;
+margin-right:15px;
+
+}
+.footer{
+font-family:Century Gothic;
+font-size:12px;	
+text-align:center;
+border-top: 5px dashed #dcdcdc;
+margin-top:6070px;
+position:absolute;
+width:100%;
+padding-top:18px;
+height: 30px;
+}
+.tips{
+border:3px;
+border-color:#4e819a;
+border-style:dashed;
+float:right;
+width:225px;
+height:355px;
+margin-top:620px;
+margin-right:px;
+font-family:Century Gothic;
+font-weight:bold;
+color:#888888;
+margin-right:-231px;
+}
+h2{
+text-align:center;
+font-family:Century Gothic;
+font-weight:bold;
+color:#888888;
+padding-top:-15px;
+}
+.list{
+text-align:left;
+margin-top: -0.1em;
+margin-left:0.3em;
+}
+.list2{
+text-align:center;
+}
+h1{
+color:#4e819a;
+font-family:Century Gothic;
+font-size:40px;
+text-align:center;
+}
+.picture{
+width:800px;
+}
+
+h2{
+text-decoration: solid;
+text-align:left;
+font-size: 20px;
+font-family:Century Gothic;
+}
+h3{
+font-size: 18px;
+color:#484848;
+font-family:Century Gothic;
+width:800px;
+margin-top:-10px;
+}
+#ad1{
+border-bottom:2px #888888 solid;
+margin-left:100px;
+width:800px;
+position:absolute;
+}
+#ad2{
+border-bottom:2px #888888 solid;
+margin-left:100px;
+margin-top:1050px;
+width:800px;
+position:absolute;
+z-index:1;
+}
+#ad3{
+border-bottom:2px #888888 solid;
+margin-left:100px;
+margin-top:1820px;
+width:800px;
+position:absolute;
+}
+#ad4{
+border-bottom:2px #888888 solid;
+margin-left:100px;
+margin-top:2650px;
+width:800px;
+position:absolute;
+}
+#ad5{
+border-bottom:2px #888888 solid;
+margin-left:100px;
+margin-top:3500px;
+width:800px;
+position:absolute;
+}
+#ad6{
+border-bottom:2px #888888 solid;
+margin-left:100px;
+margin-top:4350px;
+width:800px;
+position:absolute;
+}
+#ad7{
+margin-left:100px;
+margin-top:5180px;
+width:800px;
+position:absolute;
+}
+
+.advice{
+height:6000px;
+
+}
+.style{
+margin-left:-15px;
+width:800px;
+text-align:left;
+font-size: 20px;
+font-family:Century Gothic;
+background:white;
+color:#888888;
+}
+.style:hover {
+background:#ffffff;
+}
+
+/* Адаптация */
+@media (max-width: 800px) {
+    .name {
+		margin-left: 15px;
+	}
+	.menu {
+		flex-direction: column;
+	}
+	
+	.panorama {
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	.menu {
+		align-items: center;
+		height: 200px;
+	}
+	.contacts{
+		margin-top: 15px;
+		padding-bottom:15px;
+	}
+	.columns {
+		display: none;
+	}
+}
+
+
+	@media (max-width: 800px) {
+		li a{
+			width: 190px;
+			font-size: 22px;
+		}
+		#travels{
+			width: 190px;
+		}
+		.tips{
+			width:190px;
+			height: 40%;
+		}
+	}
+
+	@media (max-width: 300px) {
+		h1 {
+		font-size:30px;
+	}
+	}
+
+	@media (max-width: 525px) {
+		.menu {
+			float: none;
+			height: 300px;
+		}
+		li {
+			float: none;
+		}
+		li a{
+			font-size: 20px;
+			line-height: 40px;
+		}
+		#search {
+			float: none;
+			margin-left: 15%;	
+		}
+	}
