@@ -237,7 +237,7 @@ h2{
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	.menu {
 		align-items: center;
 		height: 400px;
