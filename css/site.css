@@ -255,6 +255,10 @@ h2{
 
 
 	@media (max-width: 800px) {
+		li a{
+			width: 190px;
+			font-size: 22px;
+		}
 		#travels{
 			width: 190px;
 		}
@@ -273,14 +277,17 @@ h2{
 	@media (max-width: 525px) {
 		.menu {
 			float: none;
-			height: 400px;
-		}
-		#search{
-			float:none;
-            align-content: center;
+			height: 300px;
 		}
 		li {
-			float: none;	
+			float: none;
+		}
+		li a{
+			font-size: 20px;
+			line-height: 40px;
+		}
+		#search {
+			float: none;
+			margin-left: 15%;	
 		}
 	}
-
