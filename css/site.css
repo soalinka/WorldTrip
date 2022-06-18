@@ -211,3 +211,23 @@ h2{
 .all{
 	width: 100%;
 }
+
+/* Адаптация */
+@media (max-width: 800px) {
+    .name {
+		margin-left: 15px;
+	}
+	.menu {
+		flex-direction: column;
+	}
+	
+	.panorama {
+		width: 80%;
+	}
+}
+
+@media (max-width: 500px) {
+    .columns {
+		display: none;
+	}
+}
