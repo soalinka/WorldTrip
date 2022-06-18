@@ -1,6 +1,6 @@
 .name{
 	width:30%;
-	margin-left:150px;
+	margin-left:30px;
 }
 .name:hover {
 	transform: scale(1.1);
@@ -21,9 +21,19 @@
 
 }
 .panorama{
-	width:100%;
-	height:35%;
+    display: block;
+    width: 100%;
 }
+
+.header-images {
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+	height: 15%;
+}
+
 ul {
   list-style:none; /*убираем маркеры списка*/
   margin:0; /*убираем отступы*/
@@ -344,3 +354,89 @@ h3{
 .style:hover {
   background:#ffffff;
 }
+
+/* Адаптация */
+@media (max-width: 1153px) {
+	#travels {
+		width: 160px;
+	}
+	.tips {
+		display: none;
+	}
+}
+
+@media (max-width: 1090px) {
+	#travels {
+		display: none;
+	}
+}
+
+@media (max-width: 840px) {
+	.menu {
+		height: 10%;
+	}
+}
+
+@media (max-width: 800px) {
+    .name {
+		margin-left: 15px;
+	}
+	.menu {
+		flex-direction: column;
+	}
+	
+	.panorama {
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	.menu {
+		align-items: center;
+		height: 200px;
+	}
+	.contacts{
+		margin-top: 15px;
+		padding-bottom:15px;
+	}
+}
+
+
+	@media (max-width: 800px) {
+		li a{
+			width: 190px;
+			font-size: 22px;
+		}
+		#travels{
+			width: 190px;
+		}
+		.tips{
+			width:190px;
+			height: 40%;
+		}
+	}
+
+	@media (max-width: 300px) {
+		h1 {
+		font-size:30px;
+	}
+	}
+
+	@media (max-width: 525px) {
+		.menu {
+			float: none;
+			height: 300px;
+		}
+		li {
+			float: none;
+		}
+		li a{
+			font-size: 20px;
+			line-height: 40px;
+		}
+		#search {
+			float: none;
+			margin-left: 15%;	
+		}
+	}
+
