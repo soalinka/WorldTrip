@@ -223,14 +223,14 @@ margin-top:-10px;
 #ad1{
 border-bottom:2px #888888 solid;
 margin-left:100px;
-width:800px;
+width:98%;
 position:absolute;
 }
 #ad2{
 border-bottom:2px #888888 solid;
 margin-left:100px;
 margin-top:1050px;
-width:800px;
+width:98%;
 position:absolute;
 z-index:1;
 }
@@ -238,34 +238,34 @@ z-index:1;
 border-bottom:2px #888888 solid;
 margin-left:100px;
 margin-top:1820px;
-width:800px;
+width:98%;
 position:absolute;
 }
 #ad4{
 border-bottom:2px #888888 solid;
 margin-left:100px;
 margin-top:2650px;
-width:800px;
+width:98%;
 position:absolute;
 }
 #ad5{
 border-bottom:2px #888888 solid;
 margin-left:100px;
 margin-top:3500px;
-width:800px;
+width:98%;
 position:absolute;
 }
 #ad6{
 border-bottom:2px #888888 solid;
 margin-left:100px;
 margin-top:4350px;
-width:800px;
+width:98%;
 position:absolute;
 }
 #ad7{
 margin-left:100px;
 margin-top:5180px;
-width:800px;
+width:98%;
 position:absolute;
 }
 
