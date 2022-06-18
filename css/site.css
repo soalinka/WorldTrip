@@ -269,3 +269,18 @@ h2{
 		font-size:30px;
 	}
 	}
+
+	@media (max-width: 525px) {
+		.menu {
+			float: none;
+			height: 400px;
+		}
+		#search{
+			float:none;
+            align-content: center;
+		}
+		li {
+			float: none;	
+		}
+	}
+
