@@ -1,6 +1,6 @@
 .name{
 	width:30%;
-	margin-left:150px;
+	margin-left:30px;
 	
 }
 .name:hover {
@@ -24,6 +24,10 @@
 .panorama{
     display: block;
     width: 100%;
+}
+
+.header-images {
+	justify-content: space-between;
 }
 
 .menu {
@@ -212,6 +216,7 @@ h2{
 	width: 100%;
 }
 
+
 /* Адаптация */
 @media (max-width: 800px) {
     .name {
@@ -222,7 +227,7 @@ h2{
 	}
 	
 	.panorama {
-		width: 80%;
+		width: 100%;
 	}
 }
 
@@ -231,3 +236,15 @@ h2{
 		display: none;
 	}
 }
+
+@media (max-width: 500px) {
+	.menu {
+		align-items: center;
+		height: 400px;
+	}
+	.contacts{
+		margin-top: 15px;
+		padding-bottom:15px;
+	}
+}
+
