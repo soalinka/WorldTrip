@@ -32,7 +32,7 @@ overflow: hidden;
 
 .menu {
 	display: flex;
-	height: 20%;
+	height: 200px;
 }
 
 ul {
@@ -178,6 +178,10 @@ font-weight:bold;
 color:#888888;
 margin-right:-231px;
 }
+
+.advice {
+    display: flex;
+}
 h2{
 text-align:center;
 font-family:Century Gothic;
@@ -283,11 +287,32 @@ background:#ffffff;
 }
 
 /* Адаптация */
+@media (max-width: 1153px) {
+	#travels {
+		width: 160px;
+	}
+	.tips {
+		display: none;
+	}
+}
+
+@media (max-width: 1090px) {
+	#travels {
+		display: none;
+	}
+}
+
+@media (max-width: 840px) {
+	.menu {
+		height: 10%;
+	}
+}
+
 @media (max-width: 800px) {
     .name {
 		margin-left: 15px;
 	}
-	.menu {
+	.menu li{
 		flex-direction: column;
 	}
 	
@@ -297,16 +322,13 @@ background:#ffffff;
 }
 
 @media (max-width: 600px) {
-	.menu {
+	.menu ul{
 		align-items: center;
 		height: 200px;
 	}
 	.contacts{
 		margin-top: 15px;
 		padding-bottom:15px;
-	}
-	.columns {
-		display: none;
 	}
 }
 
