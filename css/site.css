@@ -230,22 +230,42 @@ h2{
 	.panorama {
 		width: 100%;
 	}
-}
 
-@media (max-width: 500px) {
-    .columns {
-		display: none;
+	.map {
+		margin-left: 2%;
 	}
 }
 
 @media (max-width: 600px) {
 	.menu {
 		align-items: center;
-		height: 400px;
+		height: 200px;
 	}
 	.contacts{
 		margin-top: 15px;
 		padding-bottom:15px;
 	}
+	.columns {
+		display: none;
+	}
+	.map {
+		width: 100%;
+	}
 }
 
+
+	@media (max-width: 800px) {
+		#travels{
+			width: 190px;
+		}
+		.tips{
+			width:190px;
+			height: 40%;
+		}
+	}
+
+	@media (max-width: 300px) {
+		h1 {
+		font-size:30px;
+	}
+	}
